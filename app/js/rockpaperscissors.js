@@ -79,6 +79,24 @@ function getWinner(playerMove,computerMove) {
         };
     };
 
+/*if (playerMove === "rock" && computerMove === "scissors" || playerMove === "scissors" && computerMove === "paper" || playerMove === "paper" && computerMove === "rock")
+    {
+        
+        console.log("Player wins");
+        winner = "player";
+
+    }
+else if(playerMove === "scissors" && computerMove === "rock" || playerMove === "paper" && computerMove == "scissors" || playerMove === "rock" && computerMove === "paper")
+{
+   console.log("Computer wins");
+   winner ="computer";
+
+}
+else if (playerMove === "rock" && computerMove === "rock" || playerMove === "scissors" && computerMove === "scissors" || playerMove === "paper" && computerMove === "paper")
+ {
+    console.log("It's a tie");
+     winner = "tie";
+ }*/
 
     return winner;
 }
